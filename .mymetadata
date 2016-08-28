@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="MailService"
+  id="myeclipse.1364550164156"
+  context-root="/MailService"
+  j2ee-spec="5.0"
+  archive="MailService.war">
+  <attributes>
+    <attribute name="webrootdir" value="web" />
+  </attributes>
+</project-module>
+

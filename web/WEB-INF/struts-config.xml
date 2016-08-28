@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+  <data-sources />
+  <form-beans >
+    <form-bean name="loginForm" type="com.yourcompany.struts.form.LoginForm" />
+    <form-bean name="registrationForm" type="com.yourcompany.struts.form.RegistrationForm" />
+    <form-bean name="composeForm" type="com.yourcompany.struts.form.ComposeForm" />
+    <form-bean name="exampleForm" type="com.yourcompany.struts.form.ExampleForm" />
+    <form-bean name="aaForm" type="com.yourcompany.struts.form.AaForm" />
+    <form-bean name="draftForm" type="com.yourcompany.struts.form.DraftForm" />
+    <form-bean name="forgotpassForm" type="com.yourcompany.struts.form.ForgotpassForm" />
+    <form-bean name="resetPassForm" type="com.yourcompany.struts.form.ResetPassForm" />
+    <form-bean name="profilepictureForm" type="com.yourcompany.struts.form.ProfilepictureForm" />
+    <form-bean name="picForm" type="com.yourcompany.struts.form.PicForm" />
+
+  </form-beans>
+
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings >
+    <action
+      attribute="loginForm"
+      input="/form/login.jsp"
+      name="loginForm"
+      path="/login"
+      scope="request"
+      type="com.yourcompany.struts.action.LoginAction">
+      <set-property property="cancellable" value="true" />
+      <forward
+        name="failure"
+        path="/form/login.jsp"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/form/buchi.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="registrationForm"
+      input="/form/registration.jsp"
+      name="registrationForm"
+      path="/registration"
+      scope="request"
+      type="com.yourcompany.struts.action.RegistrationAction">
+      <set-property property="cancellable" value="true" />
+      <forward
+        name="failure"
+        path="/form/registration.jsp"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/form/login.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="composeForm"
+      input="/form/compose.jsp"
+      name="composeForm"
+      path="/compose"
+      type="com.yourcompany.struts.action.ComposeAction">
+      <set-property property="cancellable" value="true" />
+      <forward
+        name="failure"
+        path="/form/compose.jsp"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/form/buchi.jsp"
+        redirect="true" />
+    </action>
+    
+    
+    <action
+      attribute="forgotpassForm"
+      input="/form/forgotpass.jsp"
+      name="forgotpassForm"
+      path="/forgotpass"
+      scope="request"
+      type="com.yourcompany.struts.action.ForgotpassAction">
+      <set-property property="cancellable" value="true" />
+      <forward
+        name="failure"
+        path="/form/forgotpass.jsp"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/form/login.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="resetPassForm"
+      input="/form/resetPass.jsp"
+      name="resetPassForm"
+      path="/resetPass"
+      scope="request"
+      type="com.yourcompany.struts.action.ResetPassAction">
+      <set-property property="cancellable" value="true" />
+      <forward
+        name="failure"
+        path="/form/resetPass.jsp"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/form/login.jsp"
+        redirect="true" />
+    </action>
+    
+    
+   
+
+  </action-mappings>
+
+
+
+
+  <message-resources parameter="com.yourcompany.struts.ApplicationResources" />
+</struts-config>
+

@@ -1,0 +1,121 @@
+@CHARSET "ISO-8859-1";
+body
+{
+    background: url(../images/background2.jpg) repeat 0 0;
+
+}
+#content {
+  	width: 740px;
+  	margin: 0 auto;/* center the page in Firefox*/
+        text-align: left;
+	padding: 20px;
+ font-family: Segoe Print,gill;
+}
+.content table {
+	margin: 0 0 10px 0;
+        color:white;
+         font-family: Segoe Print,gill;
+       font-size:20px
+}
+
+
+ .content table.blue {
+	display: block;
+	float: left;
+	clear: left;
+	height: 24px;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	font-weight: bold;
+	margin-left:600px;
+
+}
+.content table.blue {
+	width: 94px;
+	color: white;
+         font-family: Segoe Print,gill;
+	background: transparent url(../images/blue.png) no-repeat 0 0;
+
+}
+.content table.green {
+	display: block;
+	float: left;
+	clear: left;
+	height: 24px;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	font-weight: bold;
+	margin-left:600px;
+
+}
+.content table.green{
+	width: 94px;
+	color: white;
+         font-family: Segoe Print,gill;
+	background: transparent url(../images/green.png) no-repeat 0 0;
+
+}
+.content table.orange {
+	display: block;
+	float: left;
+	clear: left;
+	height: 24px;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	font-weight: bold;
+	margin-left:600px;
+
+}
+.content table.orange {
+	width: 94px;
+	color: white;
+         font-family: Segoe Print,gill;
+	background: transparent url(../images/orange.png) no-repeat 0 0;
+
+}
+.content table.red {
+	display: block;
+	float: left;
+	clear: left;
+	height: 24px;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	font-weight: bold;
+	margin-left:600px;
+
+}
+.content table.red {
+	width: 94px;
+	color: white;
+         font-family: Segoe Print,gill;
+	background: transparent url(../images/red.png) no-repeat 0 0;
+
+}
+.content input.bt_submit {
+	display: block;
+	float: left;
+	clear: left;
+	height: 24px;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	font-weight: bold;
+	margin-left:600px;
+
+}
+.content input.bt_submit {
+	width: 94px;
+	color: white;
+         font-family: Segoe Print,gill;
+	background: transparent url(../images/blue.png) no-repeat 0 0;
+
+}
+
+
+
+
+

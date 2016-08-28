@@ -1,0 +1,52 @@
+body
+{
+    background:url("../images/3d_1699.jpg") repeat 0 0;
+
+}
+h1
+{
+
+    font-size:36px;
+         font-family: Segoe Print,gill;
+	padding: 5px 0 10px;
+	margin: 0;
+	color:white;
+
+
+}
+#content {
+  	width: 740px;
+  	margin: 0 auto;/* center the page in Firefox*/
+        text-align: left;
+	padding: 20px;
+ font-family: Segoe Print,gill;
+}
+.content form {
+	margin-left:500px;
+        color:white;
+         font-family: Segoe Print,gill;
+       font-size:20px
+}
+
+
+ .content input.bt_submit {
+	display: block;
+	float: left;
+	clear: left;
+	height: 24px;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	font-weight: bold;
+	margin-left:100px;
+
+}
+.content input.bt_submit {
+	width: 94px;
+	color: white;
+         font-family: Segoe Print,gill;
+	background: transparent url(../images/bt_register.png) no-repeat 0 0;
+
+}
+
+
